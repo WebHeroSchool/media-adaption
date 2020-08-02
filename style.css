@@ -1,0 +1,48 @@
+@media (min-width: 320px) {
+  .wrap_title {
+    font-size: 15px;
+  }
+}
+@media (min-width: 641px) {
+  .wrap_title {
+    font-size: 32px;
+  }
+}
+.nav {
+  background: red;
+}
+.menu_adaption {
+  display: none;
+  width: 130px;
+  background: red;
+  position: fixed;
+  left: -110px;
+  top: 0;
+  bottom: 0;
+  transition: ease 1s;
+  cursor: pointer;
+}
+.menu_adaption:hover {
+  left: 0;
+}
+@media (max-width: 481px) {
+  .menu_adaption {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}
+.burger_menu {
+  display: none;
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  cursor:pointer;
+}
+@media (max-width: 481px) {
+  .burger_menu {
+    display: block;
+  }
+}
